@@ -1,0 +1,94 @@
+.login {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(at center top, var(--color-2), var(--color-3));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out 0.3s;
+
+  .form {
+    width: 40%;
+    height: auto;
+    background-color: var(--color-1);
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.1rem 1rem var(--color-1), -0.1rem -0.1rem 1rem var(--color-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    align-items: center;
+    .title {
+      font-size: 3.5rem;
+      color: var(--color-3);
+      margin: 2rem 0;
+    }
+    form {
+      display: flex;
+      width: 80%;
+      gap: 0.25rem;
+      flex-direction: column;
+      justify-content: space-between;
+      input {
+        background-color: inherit;
+        border: none;
+        padding: 0.25rem 0;
+        border-bottom: 0.1rem solid var(--color-4);
+        color: var(--color-4);
+        transition: all ease-in-out 0.3s;
+        font-size: 2rem;
+        letter-spacing: 0.15rem;
+        &::placeholder {
+          font: 1rem;
+          color: var(--color-4);
+        }
+        &:focus {
+          padding: 0.51rem 0;
+          border-bottom: 0.25rem solid var(--color-3);
+        }
+      }
+      label {
+        font-size: 1.8rem;
+        color: var(--color-4);
+        margin-top: 0.75rem;
+      }
+      .file {
+        margin-top: 0.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        cursor: pointer;
+        .avatar {
+          width: 6rem;
+          margin-right: 0.5rem;
+        }
+      }
+      .btn-submit {
+        margin-top: 3rem;
+        background-color: var(--color-3);
+        border: none;
+        border-radius: 0.3rem;
+        padding: 0.5rem 0;
+        font-size: 2rem;
+        color: var(--color-1);
+        font-weight: 700;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        &:hover {
+          box-shadow: 0.1rem 0.1rem 1.5rem var(--color-3);
+        }
+      }
+    }
+    h3 {
+      font-size: 1.5rem;
+      margin: 2rem 0;
+      letter-spacing: 0.15rem;
+      color: var(--color-4);
+      a {
+        color: var(--color-3);
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+}
