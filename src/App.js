@@ -5,6 +5,7 @@ import Singin from "./Components/Auth/Singin/Singin";
 import Home from "./Container/Home/Home";
 import { BrowserRouter, Navigate, Route, Routes, useNavigate } from "react-router-dom";
 import { AuthContext } from "./Context/AuthContext";
+
 function App() {
   const [pervTheme, setTheme] = useState("");
 
@@ -21,7 +22,7 @@ function App() {
   };
   const { currentUser } = useContext(AuthContext);
 
-  console.log(currentUser);
+  console.log(currentUser, "app file");
   const ProtectedRoute = ({ children }) => {
     if (!currentUser) {
       return <Navigate to="/login" />;

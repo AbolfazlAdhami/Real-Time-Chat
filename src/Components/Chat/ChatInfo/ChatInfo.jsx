@@ -5,9 +5,9 @@ const ChatInfo = () => {
     <div className="chat-info">
       <div className="name-info">Rachel</div>
       <div className="icon-info">
-        <i class="bx bxs-video"></i>
-        <i class="bx bxs-user-plus"></i>
-        <i class="bx bx-dots-horizontal-rounded"></i>
+        <i className="bx bxs-video"></i>
+        <i className="bx bxs-user-plus"></i>
+        <i className="bx bx-dots-horizontal-rounded"></i>
       </div>
     </div>
   );

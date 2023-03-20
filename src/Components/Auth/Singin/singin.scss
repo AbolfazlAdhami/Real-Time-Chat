@@ -99,3 +99,26 @@
     }
   }
 }
+@media (max-width: 980px) {
+  .singin {
+    .form {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .singin {
+    .form {
+      width: 60%;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .singin {
+    .form {
+      width: 75%;
+    }
+  }
+}

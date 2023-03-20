@@ -92,3 +92,26 @@
     }
   }
 }
+@media (max-width: 980px) {
+  .login {
+    .form {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .login {
+    .form {
+      width: 60%;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .login {
+    .form {
+      width: 75%;
+    }
+  }
+}
